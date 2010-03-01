@@ -1,6 +1,7 @@
 Problem:
 GeneMark will predict genes and output their locations in a gtf2 file.
 We want two convert this into a gff3 format file.
+It would also be nice to have a tool that pulls out the relevant sequences from the original fasta file.
 
 A full gff3 format description can be found here: http://www.sequenceontology.org/gff3.shtml
 There is a gff3 validator at: http://dev.wormbase.org/db/validate_gff3/validate_gff3_online
