@@ -1,0 +1,11 @@
+Problem:
+GeneMark will predict genes and output their locations in a gtf2 file.
+We want two convert this into a gff3 format file.
+
+A full gff3 format description can be found here: http://www.sequenceontology.org/gff3.shtml
+There is a gff3 validator at: http://dev.wormbase.org/db/validate_gff3/validate_gff3_online
+
+It is important that the gff file retains information about start and stop sites.
+We want to know which gene models are complete so that we can qualify any secretion peptide predictions.
+
+
