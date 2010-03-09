@@ -5,7 +5,6 @@ class GtfConverter
   
   InvalidGtfFormat = Class.new(StandardError)
   
-  
   def initialize(gtf_line)
     check_format(gtf_line)
     @line = gtf_line
